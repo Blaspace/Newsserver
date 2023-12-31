@@ -8,10 +8,13 @@ const handleEntertainment = require("../controlers/handleEntertainment");
 const handleOpinion = require("../controlers/handleOpinion");
 const handleStyle = require("../controlers/handleStyle");
 const handleGetSingleNews = require("../controlers/handleGetSingleNews");
+const handleHome = require("../controlers/handleHome");
 
 const router = express.Router();
 
 router.post("/single", handleGetSingleNews);
+
+router.get("/", handleHome);
 
 router.get("/business", handleBusiness);
 
