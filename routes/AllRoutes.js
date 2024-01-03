@@ -14,7 +14,7 @@ const router = express.Router();
 
 router.post("/single", handleGetSingleNews);
 
-router.get("/", handleHome);
+router.get("/home", handleHome);
 
 router.get("/business", handleBusiness);
 
