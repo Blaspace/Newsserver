@@ -11,7 +11,7 @@ This project is a backend application built with Node.js to scrape real-time new
 ## Setup
 1. Clone the repository:
    ```
-   git clone https://github.com/your_username/cnn-news-scraper.git
+   git clone https://github.com/blaspace/newsserver.git
    ```
 2. Install dependencies:
    ```
